@@ -1,0 +1,23 @@
+{
+    "id": "google-maps",
+    "name": "Google Maps",
+    "version": "0.1.0",
+    "publisher": "Google",
+    "description": "Access location data, directions, and place details.",
+    "full_description": "Provide your agent with geospatial capabilities. This server enables searching for places, getting directions, calculating distances, and retrieving detailed information about locations using Google Maps Platform APIs.",
+    "tools": [
+        {
+            "name": "maps_search_places",
+            "description": "Search for places by text query."
+        },
+        {
+            "name": "maps_get_directions",
+            "description": "Get directions between locations."
+        },
+        {
+            "name": "maps_get_details",
+            "description": "Get detailed information about a place."
+        }
+    ],
+    "icon": "MapPin"
+}

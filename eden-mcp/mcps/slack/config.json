@@ -1,0 +1,27 @@
+{
+    "id": "slack",
+    "requirements": {
+        "env": {
+            "SLACK_BOT_TOKEN": {
+                "description": "Slack Bot User OAuth Token.",
+                "required": true,
+                "help_url": "https://api.slack.com/apps"
+            },
+            "SLACK_TEAM_ID": {
+                "description": "Your Slack Team ID.",
+                "required": true
+            }
+        }
+    },
+    "installer": {
+        "command": "npx",
+        "args": [
+            "-y",
+            "@modelcontextprotocol/server-slack"
+        ],
+        "env": {
+            "SLACK_BOT_TOKEN": "{{SLACK_BOT_TOKEN}}",
+            "SLACK_TEAM_ID": "{{SLACK_TEAM_ID}}"
+        }
+    }
+}

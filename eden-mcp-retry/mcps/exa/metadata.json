@@ -1,0 +1,19 @@
+{
+    "id": "exa",
+    "name": "Exa Search",
+    "version": "0.1.0",
+    "publisher": "Exa",
+    "description": "AI-native search engine for better context retrieval.",
+    "full_description": "Exa (formerly Metaphor) is a search engine designed specifically for LLMs. It returns clean, high-quality content optimized for RAG and agent context.",
+    "tools": [
+        {
+            "name": "exa_search",
+            "description": "Semantic search for high-quality web links."
+        },
+        {
+            "name": "exa_get_contents",
+            "description": "Retrieve clean text content from URLs."
+        }
+    ],
+    "icon": "Zap"
+}

@@ -1,0 +1,23 @@
+{
+    "id": "obsidian",
+    "name": "Obsidian",
+    "version": "1.1.0",
+    "publisher": "BitBonsai",
+    "description": "Connect your Obsidian vault as an AI knowledge base.",
+    "full_description": "Turn your Obsidian notes into a queryable knowledge graph for your agent. This server allows the agent to read, search, and update your local markdown notes safely.",
+    "tools": [
+        {
+            "name": "obsidian_search",
+            "description": "Search notes in the vault."
+        },
+        {
+            "name": "obsidian_read_note",
+            "description": "Read content of a specific note."
+        },
+        {
+            "name": "obsidian_update_note",
+            "description": "Update or create a note."
+        }
+    ],
+    "icon": "FileText"
+}

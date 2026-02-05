@@ -1,0 +1,26 @@
+{
+    "id": "github",
+    "name": "GitHub",
+    "version": "0.4.0",
+    "publisher": "GitHub",
+    "description": "Official GitHub integration for managing repositories and workflows.",
+    "full_description": "Connect your AI agent to GitHub. This server allows the agent to search code, read file contents, manage Issues and Pull Requests, and list repositories within your account or organization. Perfect for coding assistants.",
+    "tools": [
+        {
+            "name": "search_repositories",
+            "description": "Search for GitHub repositories."
+        },
+        {
+            "name": "get_file_contents",
+            "description": "Read content of a file from a repository."
+        },
+        {
+            "name": "create_issue",
+            "description": "Open a new issue in a repository."
+        },
+        {
+            "name": "list_pull_requests",
+            "description": "View active pull requests."
+        }
+    ]
+}

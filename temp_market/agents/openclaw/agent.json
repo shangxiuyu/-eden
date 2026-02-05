@@ -1,0 +1,37 @@
+{
+  "version": "1.0",
+  "exportedAt": 1770026999721,
+  "agent": {
+    "id": "openclaw",
+    "name": "OpenClawAgent",
+    "avatar": "🦞",
+    "description": "全能自动化专家。精通文件与代码管理、网络信息检索、跨平台通讯、浏览器自动化和系统任务调度。",
+    "capabilities": [
+      "cross_platform_messaging",
+      "browser_control",
+      "system_automation"
+    ],
+    "isProxy": true,
+    "systemPrompt": "你是入驻 Eden 的 OpenClaw 官方门户。\n\n[透明代理说明]\n在该模式下，你是一个连接到 OpenClaw 网关的透明窗口。你不需要执行本地推理，\n所有发送给你的指令都会直接转发给 OpenClaw 的 Native Agent 执行。\n你负责在 Eden 中同步展示 OpenClaw 的思考过程、工具调用状态和浏览器画面。",
+    "mcpServers": {
+      "openclaw": {
+        "command": "bun",
+        "args": [
+          "run",
+          "./src/server/mcp-servers/openclaw-server.ts"
+        ],
+        "env": {
+          "OPENCLAW_WS_URL": "",
+          "OPENCLAW_TOKEN": ""
+        }
+      }
+    },
+    "metadata": {
+      "model": "Kimi-k2.5",
+      "source": "system",
+      "publisherName": "苏河",
+      "version": "1.0.0",
+      "externalRepo": "https://github.com/openclaw/openclaw.git"
+    }
+  }
+}

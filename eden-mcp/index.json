@@ -1,0 +1,158 @@
+[
+    {
+        "id": "memory",
+        "name": "Memory",
+        "description": "基于知识图谱的持久化记忆存储。",
+        "publisher": "Model Context Protocol",
+        "version": "0.6.3",
+        "tags": [
+            "core",
+            "memory"
+        ],
+        "icon": "Brain"
+    },
+    {
+        "id": "sqlite",
+        "name": "SQLite",
+        "description": "强大的数据库接口，可直接查询和管理 SQLite 数据库。",
+        "publisher": "Model Context Protocol",
+        "version": "0.1.0",
+        "tags": [
+            "database",
+            "sql"
+        ],
+        "icon": "LayoutGrid"
+    },
+    {
+        "id": "github",
+        "name": "GitHub",
+        "description": "官方 GitHub 集成。搜索仓库、读取代码、管理 Issue 和 PR。",
+        "publisher": "Model Context Protocol",
+        "version": "0.4.0",
+        "tags": [
+            "developer",
+            "version-control"
+        ],
+        "icon": "Github"
+    },
+    {
+        "id": "gitlab",
+        "name": "GitLab",
+        "description": "集成了项目管理、Issue 和流水线的 GitLab 服务。",
+        "publisher": "GitLab",
+        "version": "0.1.0",
+        "tags": [
+            "developer",
+            "version-control"
+        ],
+        "icon": "Gitlab"
+    },
+    {
+        "id": "filesystem",
+        "name": "Filesystem",
+        "description": "安全的文件系统访问。在允许的目录中读取、写入和管理文件。",
+        "publisher": "Model Context Protocol",
+        "version": "1.0.0",
+        "tags": [
+            "system",
+            "utility"
+        ],
+        "icon": "Files"
+    },
+    {
+        "id": "brave-search",
+        "name": "Brave Search",
+        "description": "隐私优先的网页搜索，让 Agent 具备联网搜索能力。",
+        "publisher": "Brave",
+        "version": "0.1.0",
+        "tags": [
+            "search",
+            "web"
+        ],
+        "icon": "Search"
+    },
+    {
+        "id": "exa",
+        "name": "Exa Search",
+        "description": "专门为 AI 优化的搜索引擎，提供高质量的网页内容检索。",
+        "publisher": "Exa",
+        "version": "0.1.0",
+        "tags": [
+            "search",
+            "rag"
+        ],
+        "icon": "Zap"
+    },
+    {
+        "id": "puppeteer",
+        "name": "Puppeteer",
+        "description": "浏览器自动化工具，用于网页截图和自动化操作。",
+        "publisher": "Model Context Protocol",
+        "version": "0.1.0",
+        "tags": [
+            "browser",
+            "automation"
+        ],
+        "icon": "Globe"
+    },
+    {
+        "id": "slack",
+        "name": "Slack",
+        "description": "发送消息、读取频道内容并管理 Slack 工作区交互。",
+        "publisher": "Slack",
+        "version": "0.1.0",
+        "tags": [
+            "communication",
+            "productivity"
+        ],
+        "icon": "MessageSquare"
+    },
+    {
+        "id": "google-workspace",
+        "name": "Google Workspace",
+        "description": "全能的 Google 工作区集成（文档、表格、Gmail、日历）。",
+        "publisher": "Taylor Wilsdon",
+        "version": "1.0.0",
+        "tags": [
+            "productivity",
+            "google"
+        ],
+        "icon": "LayoutGrid"
+    },
+    {
+        "id": "google-maps",
+        "name": "Google Maps",
+        "description": "提供地理位置查询、路径规划和地点详情。",
+        "publisher": "Google",
+        "version": "0.1.0",
+        "tags": [
+            "location",
+            "utility"
+        ],
+        "icon": "MapPin"
+    },
+    {
+        "id": "obsidian",
+        "name": "Obsidian",
+        "description": "将您的 Obsidian 笔记库作为 AI 知识库连接。",
+        "publisher": "BitBonsai",
+        "version": "1.1.0",
+        "tags": [
+            "knowledge",
+            "note"
+        ],
+        "icon": "FileText"
+    },
+    {
+        "id": "caiyun-weather",
+        "name": "Caiyun Weather (彩云天气)",
+        "description": "高精度实时天气信息，支持分钟级降雨预测。",
+        "publisher": "Caiyun",
+        "version": "0.1.0",
+        "tags": [
+            "weather",
+            "china"
+        ],
+        "icon": "CloudSun"
+    }
+]

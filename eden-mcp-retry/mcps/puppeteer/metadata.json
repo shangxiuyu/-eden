@@ -1,0 +1,27 @@
+{
+    "id": "puppeteer",
+    "name": "Puppeteer",
+    "version": "0.1.0",
+    "publisher": "Model Context Protocol",
+    "description": "Browser automation for web scraping and testing.",
+    "full_description": "Enable your agent to control a headless Chrome browser. This server provides tools for navigating to URLs, taking screenshots, clicking elements, filling forms, and extracting data from web pages using Puppeteer.",
+    "tools": [
+        {
+            "name": "browser_navigate",
+            "description": "Navigate to a URL."
+        },
+        {
+            "name": "browser_screenshot",
+            "description": "Take a screenshot of the current page."
+        },
+        {
+            "name": "browser_click",
+            "description": "Click an element on the page."
+        },
+        {
+            "name": "browser_type",
+            "description": "Type text into an input field."
+        }
+    ],
+    "icon": "Globe"
+}

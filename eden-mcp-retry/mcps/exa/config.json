@@ -1,0 +1,22 @@
+{
+    "id": "exa",
+    "requirements": {
+        "env": {
+            "EXA_API_KEY": {
+                "description": "Exa API Key.",
+                "required": true,
+                "help_url": "https://dashboard.exa.ai/"
+            }
+        }
+    },
+    "installer": {
+        "command": "npx",
+        "args": [
+            "-y",
+            "@modelcontextprotocol/server-exa"
+        ],
+        "env": {
+            "EXA_API_KEY": "{{EXA_API_KEY}}"
+        }
+    }
+}

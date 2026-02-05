@@ -1,0 +1,19 @@
+{
+    "id": "brave-search",
+    "name": "Brave Search",
+    "version": "0.1.0",
+    "publisher": "Model Context Protocol",
+    "description": "Privacy-focused web search directly from your agent.",
+    "full_description": "Allow your agent to browse the web using the Brave Search API. This server provides tools for searching the internet, retrieving search results, and extracting snippets of web content while maintaining high privacy standards.",
+    "tools": [
+        {
+            "name": "brave_web_search",
+            "description": "Search the web using Brave Search."
+        },
+        {
+            "name": "brave_local_search",
+            "description": "Search for local businesses and places."
+        }
+    ],
+    "icon": "Search"
+}

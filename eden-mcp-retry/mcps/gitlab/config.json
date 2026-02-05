@@ -1,0 +1,27 @@
+{
+    "id": "gitlab",
+    "requirements": {
+        "env": {
+            "GITLAB_PERSONAL_ACCESS_TOKEN": {
+                "description": "GitLab Personal Access Token.",
+                "required": true,
+                "help_url": "https://gitlab.com/-/profile/personal_access_tokens"
+            },
+            "GITLAB_API_URL": {
+                "description": "GitLab API URL (defaults to https://gitlab.com/api/v4).",
+                "required": false,
+                "default": "https://gitlab.com/api/v4"
+            }
+        }
+    },
+    "installer": {
+        "command": "npx",
+        "args": [
+            "-y",
+            "@modelcontextprotocol/server-gitlab"
+        ],
+        "env": {
+            "GITLAB_PERSONAL_ACCESS_TOKEN": "{{GITLAB_TOKEN}}"
+        }
+    }
+}

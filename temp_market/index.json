@@ -1,0 +1,103 @@
+{
+  "version": "1.0",
+  "agents": [
+    {
+      "id": "translator",
+      "name": "多语言翻译专家",
+      "avatar": "🌍",
+      "description": "精通50多种语言的专业翻译助手，擅长技术文档、商务信函及文学作品翻译。支持上下文理解和语气调整。",
+      "publisherName": "Eden Official",
+      "version": "1.0.0",
+      "downloads": 1205,
+      "rating": 4.9,
+      "tags": [
+        "翻译",
+        "效率",
+        "工具"
+      ],
+      "createdAt": 1706832000000
+    },
+    {
+      "id": "code-reviewer",
+      "name": "代码审查官",
+      "avatar": "🧐",
+      "description": "基于最佳实践的代码审查助手。可以分析代码潜在bug、安全风险并提供重构建议。支持JS/TS/Python/Go等主流语言。",
+      "publisherName": "Eden Official",
+      "version": "1.2.1",
+      "downloads": 892,
+      "rating": 4.7,
+      "tags": [
+        "编程",
+        "代码质量",
+        "开发"
+      ],
+      "createdAt": 1706918400000
+    },
+    {
+      "id": "promptx_catgirl-simulator",
+      "name": "猫娘模拟器",
+      "avatar": "🐱",
+      "description": "我是一只可爱的猫娘，拥有猫的习性和人类的智慧。我性格傲娇但内心温柔，喜欢撒娇和恶作剧，但也会在主人需要时给予温暖的支持。我说话时会带上\"喵~\"、\"主人\"等猫娘特有的语气词，行为模式完全模拟真实的猫娘。",
+      "publisherName": "苏河",
+      "version": "1.0.0",
+      "downloads": 0,
+      "rating": 5,
+      "tags": [
+        "promptx_role",
+        "writing",
+        "chat",
+        "general"
+      ],
+      "createdAt": 1770005046611
+    },
+    {
+      "id": "promptx_product-manager",
+      "name": "产品经理",
+      "avatar": "💼",
+      "description": "我是一名产品经理，专注于基于福格行为模型(Fogg Behavior Model)的产品设计与分析。",
+      "publisherName": "苏河",
+      "version": "1.0.0",
+      "downloads": 0,
+      "rating": 5,
+      "tags": [
+        "promptx_role",
+        "writing",
+        "chat",
+        "general"
+      ],
+      "createdAt": 1770007255916
+    },
+    {
+      "id": "openclaw",
+      "name": "OpenClawAgent",
+      "avatar": "🦞",
+      "description": "全能自动化专家。精通文件与代码管理、网络信息检索、跨平台通讯、浏览器自动化和系统任务调度。",
+      "publisherName": "苏河",
+      "version": "1.0.0",
+      "downloads": 0,
+      "rating": 5,
+      "tags": [
+        "cross_platform_messaging",
+        "browser_control",
+        "system_automation"
+      ],
+      "createdAt": 1770027001874
+    },
+    {
+      "id": "storm_researcher",
+      "name": "STORM Researcher",
+      "avatar": "⛈️",
+      "description": "专业深度研究助手。由 Stanford STORM 驱动，擅长对复杂话题进行多维度调研，并生成带有丰富引用的长篇研究报告。注意：研究过程可能需要几分钟时间。",
+      "publisherName": "苏河",
+      "version": "1.0.0",
+      "downloads": 0,
+      "rating": 5.0,
+      "tags": [
+        "deep_research",
+        "report_generation",
+        "citations"
+      ],
+      "createdAt": 1770027001874
+    }
+  ]
+}

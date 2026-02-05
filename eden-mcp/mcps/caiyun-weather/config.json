@@ -1,0 +1,22 @@
+{
+    "id": "caiyun-weather",
+    "requirements": {
+        "env": {
+            "CAIYUN_API_KEY": {
+                "description": "Caiyun Weather API Token.",
+                "required": true,
+                "help_url": "https://dashboard.caiyunapp.com/"
+            }
+        }
+    },
+    "installer": {
+        "command": "npx",
+        "args": [
+            "-y",
+            "@modelcontextprotocol/server-caiyun-weather"
+        ],
+        "env": {
+            "CAIYUN_API_KEY": "{{CAIYUN_API_KEY}}"
+        }
+    }
+}

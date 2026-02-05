@@ -1,0 +1,25 @@
+{
+    "id": "caiyun-weather",
+    "name": "Caiyun Weather (彩云天气)",
+    "version": "0.1.0",
+    "publisher": "Caiyun",
+    "description": "High-precision real-time weather information for China.",
+    "full_description": "Get accurate weather data from Caiyun Weather (彩云天气). This server provides tools for current weather, forecasts, and air quality information specifically optimized for the China region.",
+    "tools": [
+        {
+            "name": "get_weather",
+            "description": "Get real-time weather and forecast."
+        }
+    ],
+    "icon": "CloudSun",
+    "config": {
+        "env": {
+            "CAIYUN_API_KEY": {
+                "label": "Caiyun API Token",
+                "description": "彩云天气 API 令牌",
+                "link": "https://dashboard.caiyunapp.com/",
+                "required": true
+            }
+        }
+    }
+}

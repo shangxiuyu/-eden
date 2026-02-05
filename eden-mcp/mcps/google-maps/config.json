@@ -1,0 +1,22 @@
+{
+    "id": "google-maps",
+    "requirements": {
+        "env": {
+            "GOOGLE_MAPS_API_KEY": {
+                "description": "Google Maps Platform API Key.",
+                "required": true,
+                "help_url": "https://console.cloud.google.com/google/maps-apis/credentials"
+            }
+        }
+    },
+    "installer": {
+        "command": "npx",
+        "args": [
+            "-y",
+            "@modelcontextprotocol/server-google-maps"
+        ],
+        "env": {
+            "GOOGLE_MAPS_API_KEY": "{{GOOGLE_MAPS_API_KEY}}"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "id": "sqlite",
+    "name": "SQLite",
+    "version": "0.1.0",
+    "publisher": "Model Context Protocol",
+    "description": "Powerful database interface for querying and managing SQLite databases directly.",
+    "full_description": "This server provides a Model Context Protocol (MCP) interface for SQLite databases, allowing AI models to execute SQL queries, inspect schemas, and manage data structures. Security is maintained by restricting access to a specific database file.",
+    "tools": [
+        {
+            "name": "query",
+            "description": "Execute a Read-Only SQL query (SELECT)."
+        },
+        {
+            "name": "list_tables",
+            "description": "List all tables in the database."
+        },
+        {
+            "name": "describe_table",
+            "description": "Get schema information for a specific table."
+        }
+    ]
+}

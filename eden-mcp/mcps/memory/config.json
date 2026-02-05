@@ -1,0 +1,18 @@
+{
+    "id": "memory",
+    "requirements": {
+        "env": {
+            "MEMORY_FILE_PATH": {
+                "description": "Path to the memory JSON/database file. (Optional)",
+                "required": false
+            }
+        }
+    },
+    "installer": {
+        "command": "npx",
+        "args": [
+            "-y",
+            "@modelcontextprotocol/server-memory"
+        ]
+    }
+}

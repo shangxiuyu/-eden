@@ -1,0 +1,18 @@
+{
+    "id": "obsidian",
+    "requirements": {
+        "env": {
+            "OBSIDIAN_VAULT_PATH": {
+                "description": "Absolute path to your Obsidian vault directory.",
+                "required": true
+            }
+        }
+    },
+    "installer": {
+        "command": "npx",
+        "args": [
+            "-y",
+            "@bitbonsai/mcp-obsidian"
+        ]
+    }
+}

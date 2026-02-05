@@ -1,0 +1,34 @@
+{
+    "id": "slack",
+    "name": "Slack",
+    "version": "0.1.0",
+    "publisher": "Model Context Protocol",
+    "description": "Send messages, read channels, and manage Slack workspace interaction.",
+    "full_description": "Integrate Slack into your agent's toolkit. This server allows the agent to send messages to channels, read message history, search for messages, and perform other basic Slack operations.",
+    "tools": [
+        {
+            "name": "post_message",
+            "description": "Post a message to a Slack channel."
+        },
+        {
+            "name": "get_channel_history",
+            "description": "Retrieve message history from a channel."
+        }
+    ],
+    "icon": "Slack",
+    "config": {
+        "env": {
+            "SLACK_BOT_TOKEN": {
+                "label": "Slack Bot Token",
+                "description": "以 xoxb- 开头的 Bot OAuth Token",
+                "link": "https://api.slack.com/apps",
+                "required": true
+            },
+            "SLACK_TEAM_ID": {
+                "label": "Slack Team ID",
+                "description": "Workspace 的 Team ID",
+                "required": true
+            }
+        }
+    }
+}

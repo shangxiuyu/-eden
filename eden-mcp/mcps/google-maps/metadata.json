@@ -1,0 +1,29 @@
+{
+    "id": "google-maps",
+    "name": "Google Maps",
+    "version": "0.1.0",
+    "publisher": "Google",
+    "description": "Access location data, directions, and place details.",
+    "full_description": "Give your agent the power of Google Maps. This server provides tools for searching places, getting directions, identifying coordinates, and retrieving details about locations worldwide.",
+    "tools": [
+        {
+            "name": "search_places",
+            "description": "Search for places and businesses."
+        },
+        {
+            "name": "get_directions",
+            "description": "Get directions between two points."
+        }
+    ],
+    "icon": "MapPin",
+    "config": {
+        "env": {
+            "GOOGLE_MAPS_API_KEY": {
+                "label": "Google Maps API Key",
+                "description": "Google Cloud 控制台生成的 API Key",
+                "link": "https://console.cloud.google.com/google/maps-apis/credentials",
+                "required": true
+            }
+        }
+    }
+}

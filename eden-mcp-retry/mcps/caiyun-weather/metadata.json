@@ -1,0 +1,19 @@
+{
+    "id": "caiyun-weather",
+    "name": "Caiyun Weather (彩云天气)",
+    "version": "0.1.0",
+    "publisher": "Caiyun",
+    "description": "High-precision real-time weather information for China.",
+    "full_description": "Get pinpoint accurate weather data, including minute-level rain forecasts, air quality index, and multi-day forecasts. Optimized for users in China and Southeast Asia.",
+    "tools": [
+        {
+            "name": "caiyun_get_weather",
+            "description": "Fetch real-time weather and forecasts for a location."
+        },
+        {
+            "name": "caiyun_get_air_quality",
+            "description": "Fetch Air Quality Index (AQI) data."
+        }
+    ],
+    "icon": "CloudSun"
+}

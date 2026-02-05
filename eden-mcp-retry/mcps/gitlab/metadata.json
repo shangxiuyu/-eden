@@ -1,0 +1,23 @@
+{
+    "id": "gitlab",
+    "name": "GitLab",
+    "version": "0.1.0",
+    "publisher": "GitLab",
+    "description": "GitLab integration for managing projects, issues, and pipelines.",
+    "full_description": "Powerful integration for GitLab users. This server allows your agent to interact with GitLab repositories, manage issues, handle merge requests, and monitor CI/CD pipelines directly from the chat.",
+    "tools": [
+        {
+            "name": "gitlab_list_projects",
+            "description": "List projects in the GitLab instance."
+        },
+        {
+            "name": "gitlab_get_issue",
+            "description": "Get details of a specific issue."
+        },
+        {
+            "name": "gitlab_create_mr",
+            "description": "Create a new merge request."
+        }
+    ],
+    "icon": "Gitlab"
+}

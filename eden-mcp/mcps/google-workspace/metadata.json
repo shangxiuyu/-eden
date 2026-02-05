@@ -1,0 +1,23 @@
+{
+    "id": "google-workspace",
+    "name": "Google Workspace",
+    "version": "1.0.0",
+    "publisher": "Taylor Wilsdon",
+    "description": "All-in-one Google Workspace integration (Docs, Sheets, Gmail, Calendar).",
+    "full_description": "A comprehensive MCP server providing tools for almost all Google Workspace applications. Search your Drive, read and compose Gmails, manage Calendar events, and even interact with Google Docs and Sheets.",
+    "tools": [
+        {
+            "name": "gmail_list_messages",
+            "description": "List emails from Gmail."
+        },
+        {
+            "name": "drive_search_files",
+            "description": "Search for files in Google Drive."
+        },
+        {
+            "name": "calendar_list_events",
+            "description": "List events from Google Calendar."
+        }
+    ],
+    "icon": "LayoutGrid"
+}

@@ -1,0 +1,16 @@
+{
+    "id": "google-workspace",
+    "requirements": {
+        "config_file": {
+            "description": "Requires Google Cloud credentials. See setup guide.",
+            "help_url": "https://github.com/taylorwilsdon/google-workspace-mcp"
+        }
+    },
+    "installer": {
+        "command": "npx",
+        "args": [
+            "-y",
+            "@taylorwilsdon/google-workspace-mcp"
+        ]
+    }
+}

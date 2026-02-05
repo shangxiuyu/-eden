@@ -1,0 +1,27 @@
+{
+    "id": "memory",
+    "name": "Memory",
+    "version": "0.6.3",
+    "publisher": "Model Context Protocol",
+    "description": "Persistent memory storage using knowledge graph structures.",
+    "full_description": "Allow your agent to maintain 'long-term memory' across different chat sessions. This server implements a knowledge graph where the agent can store entities, observations, and relationships, making it possible to recall facts about the user, projects, or past decisions.",
+    "tools": [
+        {
+            "name": "create_entities",
+            "description": "Create new entities in the knowledge graph."
+        },
+        {
+            "name": "add_observations",
+            "description": "Add new observations to existing entities."
+        },
+        {
+            "name": "search_nodes",
+            "description": "Search for entities based on content."
+        },
+        {
+            "name": "open_nodes",
+            "description": "Retrieve specific entities and their relationships."
+        }
+    ],
+    "icon": "Brain"
+}

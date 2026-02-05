@@ -1,0 +1,26 @@
+{
+    "id": "filesystem",
+    "name": "Filesystem",
+    "version": "1.0.0",
+    "publisher": "Model Context Protocol",
+    "description": "Secure file system access. Read, write and manage files in allowed directories.",
+    "full_description": "Give your agent the ability to interact with the local file system. This server provides tools to list directory contents, read files, write new files, and manage metadata. Access is restricted to specified directories for security.",
+    "tools": [
+        {
+            "name": "list_directory",
+            "description": "List files and folders in a path."
+        },
+        {
+            "name": "read_file",
+            "description": "Read the text content of a file."
+        },
+        {
+            "name": "write_file",
+            "description": "Create or overwrite a file with given content."
+        },
+        {
+            "name": "get_file_info",
+            "description": "View file size and modification time."
+        }
+    ]
+}

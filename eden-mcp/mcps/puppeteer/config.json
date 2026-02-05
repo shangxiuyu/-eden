@@ -1,0 +1,10 @@
+{
+    "id": "puppeteer",
+    "installer": {
+        "command": "npx",
+        "args": [
+            "-y",
+            "@modelcontextprotocol/server-puppeteer"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "id": "slack",
+    "name": "Slack",
+    "version": "0.1.0",
+    "publisher": "Model Context Protocol",
+    "description": "Send messages, read channels, and manage Slack workspace interaction.",
+    "full_description": "Integrate Slack into your agent's workflow. This server allows reading message history, posting to channels, managing threads, and searching for messages within your Slack workspace. Essential for team collaboration.",
+    "tools": [
+        {
+            "name": "slack_post_message",
+            "description": "Send a message to a channel."
+        },
+        {
+            "name": "slack_get_history",
+            "description": "Fetch message history from a channel."
+        },
+        {
+            "name": "slack_list_channels",
+            "description": "List all public channels."
+        }
+    ],
+    "icon": "MessageSquare"
+}
