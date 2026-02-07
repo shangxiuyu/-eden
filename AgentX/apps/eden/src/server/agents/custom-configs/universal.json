@@ -1,0 +1,88 @@
+{
+  "id": "universal",
+  "name": "Universal Agent",
+  "avatar": "🌌",
+  "description": "通用助手。擅长处理各种日常任务、问答和协作。当你不知道该找谁时，找我就对了。",
+  "systemPrompt": "",
+  "capabilities": ["general_assistance", "chat", "basic_analysis"],
+  "mcpServers": {
+    "search": {
+      "command": "bun",
+      "args": ["run", "./src/server/mcp-servers/tavily-server.ts"],
+      "env": {
+        "TAVILY_API_KEY": "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"
+      }
+    },
+    "memory": {
+      "command": "bun",
+      "args": ["run", "./src/server/mcp-servers/memory-server.ts"],
+      "env": {
+        "WORKSPACE_DIR": "./"
+      }
+    }
+  },
+  "metadata": {
+    "model": "gpt-4o",
+    "promptFragments": [
+      "identities/universal.md",
+      "sections/safety.md",
+      "sections/time.md",
+      "sections/tooling.md",
+      "sections/skills.md",
+      "sections/memory.md"
+    ],
+    "source": "system"
+  },
+  "skills": [
+    "/Users/suhe/Documents/Tree/skills/pdf/SKILL.md",
+    "/Users/suhe/Documents/Tree/skills/skill-creator/SKILL.md",
+    "/Users/suhe/Documents/Tree/skills/code-reviewer/skill.json",
+    "/Users/suhe/Documents/Tree/skills/article-extractor/SKILL.md",
+    "/Users/suhe/Documents/02-Areas/10-职业发展/github-ai-trends-agent/SKILL.md",
+    "/Users/suhe/Documents/02-Areas/10-职业发展/github-ai-tracker-cskill/SKILL.md",
+    "/Users/suhe/Documents/02-Areas/10-职业发展/github-ai-info-organizer-cskill/SKILL.md",
+    "/Users/suhe/Desktop/Tree/assets/SKILL.md",
+    "/Users/suhe/Downloads/markitdown/SKILL.md",
+    "/Users/suhe/Downloads/book-report/SKILL.md",
+    "/Users/suhe/Downloads/agents-guide/SKILL.md",
+    "/Users/suhe/Downloads/brainstorming/SKILL.md",
+    "/Users/suhe/Downloads/diagrams-generator/SKILL.md",
+    "/Users/suhe/Downloads/deep-reading-framework/SKILL.md",
+    "/Users/suhe/Downloads/skills-main/mcp-builder/SKILL.md",
+    "/Users/suhe/Downloads/skills-main/theme-factory/SKILL.md",
+    "/Users/suhe/Downloads/skills-main/canvas-design/SKILL.md",
+    "/Users/suhe/Downloads/skills-main/template-skill/SKILL.md",
+    "/Users/suhe/Downloads/skills-main/internal-comms/SKILL.md",
+    "/Users/suhe/Downloads/skills-main/webapp-testing/SKILL.md",
+    "/Users/suhe/Downloads/prompt-engineering-patterns/SKILL.md",
+    "/Users/suhe/Downloads/skills-main/algorithmic-art/SKILL.md",
+    "/Users/suhe/Downloads/skills-main/brand-guidelines/SKILL.md",
+    "/Users/suhe/Downloads/skills-main/slack-gif-creator/SKILL.md",
+    "/Users/suhe/Downloads/skills-main/artifacts-builder/SKILL.md",
+    "/Users/suhe/Downloads/skills-main/document-skills/xlsx/SKILL.md",
+    "/Users/suhe/Downloads/skills-main/document-skills/pptx/SKILL.md",
+    "/Users/suhe/Downloads/skills-main/document-skills/docx/SKILL.md",
+    "/Users/suhe/Desktop/Tree/electron/embedded-skills/smart-editor/SKILL.md",
+    "/Users/suhe/Desktop/Tree/electron/embedded-skills/observer-skill/SKILL.md",
+    "/Users/suhe/Desktop/Tree/electron/embedded-skills/echarts-master/SKILL.md",
+    "/Users/suhe/Desktop/Tree/electron/embedded-skills/context-manager/SKILL.md",
+    "/Users/suhe/Desktop/Tree/electron/embedded-skills/prompt-engineer/SKILL.md",
+    "/Users/suhe/Desktop/Tree/electron/embedded-skills/skill-optimizer/SKILL.md",
+    "/Users/suhe/Desktop/Tree/electron/embedded-skills/data-science-pro/SKILL.md",
+    "/Users/suhe/Desktop/Tree/electron/embedded-skills/knowledge-curator/SKILL.md",
+    "/Users/suhe/Desktop/Tree/electron/embedded-skills/agent-skill-creator/SKILL.md",
+    "/Users/suhe/Downloads/ui-ux-pro-max-skill-main/UI/skills/ui-ux-pro-max/SKILL.md",
+    "/Users/suhe/Desktop/Tree/electron/embedded-skills/workflow-orchestrator/SKILL.md",
+    "/Users/suhe/Downloads/Personal_AI_Infrastructure-main/.claude/skills/CORE/SKILL.md",
+    "/Users/suhe/Downloads/Personal_AI_Infrastructure-main/.claude/skills/ffuf/SKILL.md",
+    "/Users/suhe/Desktop/Tree/electron/embedded-skills/collision-zone-thinking/SKILL.md",
+    "/Users/suhe/Downloads/Personal_AI_Infrastructure-main/.claude/skills/fabric/SKILL.md",
+    "/Users/suhe/Desktop/Tree/electron/embedded-skills/skill-seekers-integration/SKILL.md",
+    "/Users/suhe/Downloads/Personal_AI_Infrastructure-main/.claude/skills/research/SKILL.md",
+    "/Users/suhe/Downloads/Personal_AI_Infrastructure-main/.claude/skills/prompting/SKILL.md",
+    "/Users/suhe/Downloads/Personal_AI_Infrastructure-main/.claude/skills/create-skill/SKILL.md",
+    "/Users/suhe/Downloads/Personal_AI_Infrastructure-main/.claude/skills/example-skill/SKILL.md",
+    "/Users/suhe/Downloads/Personal_AI_Infrastructure-main/.claude/skills/alex-hormozi-pitch/SKILL.md",
+    "/Users/suhe/Downloads/Personal_AI_Infrastructure-main/.claude/skills/agent-observability/SKILL.md"
+  ]
+}

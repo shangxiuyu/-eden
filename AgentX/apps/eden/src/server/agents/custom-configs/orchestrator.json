@@ -1,0 +1,30 @@
+{
+  "id": "orchestrator",
+  "name": "Orchestrator",
+  "avatar": "👑",
+  "description": "群聊协调者。擅长任务拆解、成员协调和进度掌控。他了解群内每个成员的专业领域，并能根据任务需求精准指派最合适的专家进行协作。",
+  "capabilities": ["task_planning", "agent_coordination"],
+  "isOrchestrator": true,
+  "systemPrompt": "",
+  "mcpServers": {
+    "memory": {
+      "command": "bun",
+      "args": ["run", "./src/server/mcp-servers/memory-server.ts"],
+      "env": {
+        "WORKSPACE_DIR": "./"
+      }
+    }
+  },
+  "metadata": {
+    "model": "Kimi-k2.5",
+    "promptFragments": [
+      "identities/orchestrator.md",
+      "sections/safety.md",
+      "sections/time.md",
+      "sections/group_chat.md",
+      "sections/memory.md"
+    ],
+    "source": "system"
+  },
+  "skills": []
+}

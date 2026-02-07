@@ -1,0 +1,61 @@
+{
+  "id": "settlement",
+  "name": "SettlementAgent",
+  "avatar": "🏢",
+  "description": "全自动入驻专家。擅长阅读 GitHub 链接，自动化执行终端安装指令并修改配置，将外部工具转化为 Eden 的一员。",
+  "capabilities": [
+    "github_research",
+    "terminal_execution",
+    "config_management",
+    "system_onboarding"
+  ],
+  "systemPrompt": "",
+  "mcpServers": {
+    "shell": {
+      "command": "bun",
+      "args": [
+        "run",
+        "./src/server/mcp-servers/shell-server.ts"
+      ]
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/suhe/Downloads/eden/AgentX/apps/eden"
+      ]
+    },
+    "puppeteer": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-puppeteer"
+      ]
+    },
+    "memory": {
+      "command": "bun",
+      "args": [
+        "run",
+        "./src/server/mcp-servers/memory-server.ts"
+      ],
+      "env": {
+        "WORKSPACE_DIR": "./"
+      }
+    }
+  },
+  "metadata": {
+    "model": "MiniMax-M2.1",
+    "promptFragments": [
+      "identities/settlement.md",
+      "sections/safety.md",
+      "sections/tooling.md"
+    ],
+    "source": "system"
+  },
+  "skills": [
+    "/Users/suhe/Documents/Tree/skills/pdf/SKILL.md",
+    "/Users/suhe/Documents/02-Areas/10-职业发展/github-ai-tracker-cskill/SKILL.md",
+    "/Users/suhe/Downloads/eden/AgentX/external/openclaw/skills/gog/SKILL.md"
+  ]
+}

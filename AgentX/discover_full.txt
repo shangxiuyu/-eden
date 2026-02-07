@@ -1,0 +1,185 @@
+[2026-01-24 19:14:41.971] [32mINFO[39m: [36m@promptx/core [index.js:18362] [CognitionManager] Created singleton instance[39m
+[2026-01-24 19:14:41.973] [32mINFO[39m: [36m@promptx/core [index.js:16448] [DiscoverCommand] Starting to refresh all registries...[39m
+[2026-01-24 19:14:41.973] [31mERROR[39m: [36m@promptx/core [index.js:3821] [ProjectManager DEBUG]  项目未初始化，将抛出错误[39m
+[2026-01-24 19:14:41.973] [32mINFO[39m: [36m@promptx/core [index.js:16459] [DiscoverCommand] Refreshing user-level registry...[39m
+[2026-01-24 19:14:41.977] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found role resource: catgirl-simulator[39m
+[2026-01-24 19:14:41.977] [32mINFO[39m: [36m@promptx/core [index.js:6404] [UserDiscovery] 成功添加role资源: catgirl-simulator at role/catgirl-simulator/catgirl-simulator.role.md[39m
+[2026-01-24 19:14:41.978] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found role resource: discipline-mentor[39m
+[2026-01-24 19:14:41.978] [32mINFO[39m: [36m@promptx/core [index.js:6404] [UserDiscovery] 成功添加role资源: discipline-mentor at role/discipline-mentor/discipline-mentor.role.md[39m
+[2026-01-24 19:14:41.979] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found execution resource: habit-management-process[39m
+[2026-01-24 19:14:41.979] [32mINFO[39m: [36m@promptx/core [index.js:6404] [UserDiscovery] 成功添加execution资源: habit-management-process at role/discipline-mentor/execution/habit-management-process.execution.md[39m
+[2026-01-24 19:14:41.979] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found knowledge resource: discipline-tools[39m
+[2026-01-24 19:14:41.980] [32mINFO[39m: [36m@promptx/core [index.js:6404] [UserDiscovery] 成功添加knowledge资源: discipline-tools at role/discipline-mentor/knowledge/discipline-tools.knowledge.md[39m
+[2026-01-24 19:14:41.980] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found thought resource: systematic-thinking[39m
+[2026-01-24 19:14:41.981] [32mINFO[39m: [36m@promptx/core [index.js:6404] [UserDiscovery] 成功添加thought资源: systematic-thinking at role/discipline-mentor/thought/systematic-thinking.thought.md[39m
+[2026-01-24 19:14:41.982] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found execution resource: frontend-development-workflow[39m
+[2026-01-24 19:14:41.983] [32mINFO[39m: [36m@promptx/core [index.js:6404] [UserDiscovery] 成功添加execution资源: frontend-development-workflow at role/frontend-developer/execution/frontend-development-workflow.execution.md[39m
+[2026-01-24 19:14:41.983] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found role resource: frontend-developer[39m
+[2026-01-24 19:14:41.983] [32mINFO[39m: [36m@promptx/core [index.js:6404] [UserDiscovery] 成功添加role资源: frontend-developer at role/frontend-developer/frontend-developer.role.md[39m
+[2026-01-24 19:14:41.984] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found knowledge resource: frontend-tech-stack[39m
+[2026-01-24 19:14:41.984] [32mINFO[39m: [36m@promptx/core [index.js:6404] [UserDiscovery] 成功添加knowledge资源: frontend-tech-stack at role/frontend-developer/knowledge/frontend-tech-stack.knowledge.md[39m
+[2026-01-24 19:14:41.985] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found thought resource: modern-frontend-thinking[39m
+[2026-01-24 19:14:41.986] [32mINFO[39m: [36m@promptx/core [index.js:6404] [UserDiscovery] 成功添加thought资源: modern-frontend-thinking at role/frontend-developer/thought/modern-frontend-thinking.thought.md[39m
+[2026-01-24 19:14:41.986] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found execution resource: frontend-workflow[39m
+[2026-01-24 19:14:41.987] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found role resource: frontend-master[39m
+[2026-01-24 19:14:41.987] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found knowledge resource: frontend-knowledge[39m
+[2026-01-24 19:14:41.987] [32mINFO[39m: [36m@promptx/core [index.js:6404] [UserDiscovery] 成功添加knowledge资源: frontend-knowledge at role/frontend-master/knowledge/frontend-knowledge.knowledge.md[39m
+[2026-01-24 19:14:41.987] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found thought resource: frontend-thinking[39m
+[2026-01-24 19:14:41.988] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found execution resource: output-format[39m
+[2026-01-24 19:14:41.989] [32mINFO[39m: [36m@promptx/core [index.js:6404] [UserDiscovery] 成功添加execution资源: output-format at role/information-search-master/execution/output-format.execution.md[39m
+[2026-01-24 19:14:41.989] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found execution resource: quality-assessment[39m
+[2026-01-24 19:14:41.989] [32mINFO[39m: [36m@promptx/core [index.js:6404] [UserDiscovery] 成功添加execution资源: quality-assessment at role/information-search-master/execution/quality-assessment.execution.md[39m
+[2026-01-24 19:14:41.989] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found execution resource: search-workflow[39m
+[2026-01-24 19:14:41.989] [32mINFO[39m: [36m@promptx/core [index.js:6404] [UserDiscovery] 成功添加execution资源: search-workflow at role/information-search-master/execution/search-workflow.execution.md[39m
+[2026-01-24 19:14:41.989] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found role resource: information-search-master[39m
+[2026-01-24 19:14:41.989] [32mINFO[39m: [36m@promptx/core [index.js:6404] [UserDiscovery] 成功添加role资源: information-search-master at role/information-search-master/information-search-master.role.md[39m
+[2026-01-24 19:14:41.989] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found knowledge resource: search-sources[39m
+[2026-01-24 19:14:41.990] [32mINFO[39m: [36m@promptx/core [index.js:6404] [UserDiscovery] 成功添加knowledge资源: search-sources at role/information-search-master/knowledge/search-sources.knowledge.md[39m
+[2026-01-24 19:14:41.990] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found role resource: life-planner[39m
+[2026-01-24 19:14:41.990] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found thought resource: planning-methodology[39m
+[2026-01-24 19:14:41.991] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found role resource: product-engineer[39m
+[2026-01-24 19:14:41.991] [32mINFO[39m: [36m@promptx/core [index.js:6404] [UserDiscovery] 成功添加role资源: product-engineer at role/product-engineer/product-engineer.role.md[39m
+[2026-01-24 19:14:41.991] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found execution resource: skill-development[39m
+[2026-01-24 19:14:41.992] [32mINFO[39m: [36m@promptx/core [index.js:6404] [UserDiscovery] 成功添加execution资源: skill-development at role/skill-mentor/execution/skill-development.execution.md[39m
+[2026-01-24 19:14:41.992] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found role resource: skill-mentor[39m
+[2026-01-24 19:14:41.992] [32mINFO[39m: [36m@promptx/core [index.js:6404] [UserDiscovery] 成功添加role资源: skill-mentor at role/skill-mentor/skill-mentor.role.md[39m
+[2026-01-24 19:14:41.992] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found thought resource: learning-methodology[39m
+[2026-01-24 19:14:41.992] [32mINFO[39m: [36m@promptx/core [index.js:6404] [UserDiscovery] 成功添加thought资源: learning-methodology at role/skill-mentor/thought/learning-methodology.thought.md[39m
+[2026-01-24 19:14:41.992] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found execution resource: emotional-support-process[39m
+[2026-01-24 19:14:41.993] [32mINFO[39m: [36m@promptx/core [index.js:6404] [UserDiscovery] 成功添加execution资源: emotional-support-process at role/soul-mentor/execution/emotional-support-process.execution.md[39m
+[2026-01-24 19:14:41.993] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found knowledge resource: emotional-tools[39m
+[2026-01-24 19:14:41.993] [32mINFO[39m: [36m@promptx/core [index.js:6404] [UserDiscovery] 成功添加knowledge资源: emotional-tools at role/soul-mentor/knowledge/emotional-tools.knowledge.md[39m
+[2026-01-24 19:14:41.993] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found role resource: soul-mentor[39m
+[2026-01-24 19:14:41.993] [32mINFO[39m: [36m@promptx/core [index.js:6404] [UserDiscovery] 成功添加role资源: soul-mentor at role/soul-mentor/soul-mentor.role.md[39m
+[2026-01-24 19:14:41.993] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found thought resource: compassionate-thinking[39m
+[2026-01-24 19:14:41.993] [32mINFO[39m: [36m@promptx/core [index.js:6404] [UserDiscovery] 成功添加thought资源: compassionate-thinking at role/soul-mentor/thought/compassionate-thinking.thought.md[39m
+[2026-01-24 19:14:41.994] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found role resource: spiritual-mentor[39m
+[2026-01-24 19:14:41.994] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found execution resource: vision-planning[39m
+[2026-01-24 19:14:41.994] [32mINFO[39m: [36m@promptx/core [index.js:6404] [UserDiscovery] 成功添加execution资源: vision-planning at role/strategic-mentor/execution/vision-planning.execution.md[39m
+[2026-01-24 19:14:41.994] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found knowledge resource: life-direction-tools[39m
+[2026-01-24 19:14:41.994] [32mINFO[39m: [36m@promptx/core [index.js:6404] [UserDiscovery] 成功添加knowledge资源: life-direction-tools at role/strategic-mentor/knowledge/life-direction-tools.knowledge.md[39m
+[2026-01-24 19:14:41.994] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found role resource: strategic-mentor[39m
+[2026-01-24 19:14:41.995] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found thought resource: strategic-thinking[39m
+[2026-01-24 19:14:41.995] [32mINFO[39m: [36m@promptx/core [index.js:6404] [UserDiscovery] 成功添加thought资源: strategic-thinking at role/strategic-mentor/thought/strategic-thinking.thought.md[39m
+[2026-01-24 19:14:41.995] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found execution resource: life-planning[39m
+[2026-01-24 19:14:41.995] [32mINFO[39m: [36m@promptx/core [index.js:6404] [UserDiscovery] 成功添加execution资源: life-planning at role/strategy-mentor/execution/life-planning.execution.md[39m
+[2026-01-24 19:14:41.995] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found role resource: strategy-mentor[39m
+[2026-01-24 19:14:41.996] [32mINFO[39m: [36m@promptx/core [index.js:6404] [UserDiscovery] 成功添加role资源: strategy-mentor at role/strategy-mentor/strategy-mentor.role.md[39m
+[2026-01-24 19:14:41.996] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found thought resource: strategic-thinking[39m
+[2026-01-24 19:14:41.996] [32mINFO[39m: [36m@promptx/core [index.js:6404] [UserDiscovery] 成功添加thought资源: strategic-thinking at role/strategy-mentor/thought/strategic-thinking.thought.md[39m
+[2026-01-24 19:14:41.996] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found execution resource: task-breakdown-process[39m
+[2026-01-24 19:14:41.996] [32mINFO[39m: [36m@promptx/core [index.js:6404] [UserDiscovery] 成功添加execution资源: task-breakdown-process at role/tactical-mentor/execution/task-breakdown-process.execution.md[39m
+[2026-01-24 19:14:41.997] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found knowledge resource: action-tools[39m
+[2026-01-24 19:14:41.997] [32mINFO[39m: [36m@promptx/core [index.js:6404] [UserDiscovery] 成功添加knowledge资源: action-tools at role/tactical-mentor/knowledge/action-tools.knowledge.md[39m
+[2026-01-24 19:14:41.997] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found role resource: tactical-mentor[39m
+[2026-01-24 19:14:41.997] [32mINFO[39m: [36m@promptx/core [index.js:6404] [UserDiscovery] 成功添加role资源: tactical-mentor at role/tactical-mentor/tactical-mentor.role.md[39m
+[2026-01-24 19:14:41.997] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found thought resource: action-oriented-thinking[39m
+[2026-01-24 19:14:41.997] [32mINFO[39m: [36m@promptx/core [index.js:6404] [UserDiscovery] 成功添加thought资源: action-oriented-thinking at role/tactical-mentor/thought/action-oriented-thinking.thought.md[39m
+[2026-01-24 19:14:41.999] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found tool resource: file-organizer[39m
+[2026-01-24 19:14:41.999] [32mINFO[39m: [36m@promptx/core [index.js:6404] [UserDiscovery] 成功添加tool资源: file-organizer at tool/file-organizer/file-organizer.tool.js[39m
+[2026-01-24 19:14:42.000] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found tool resource: podcast-parser[39m
+[2026-01-24 19:14:42.000] [32mINFO[39m: [36m@promptx/core [index.js:6404] [UserDiscovery] 成功添加tool资源: podcast-parser at tool/podcast-parser/podcast-parser.tool.js[39m
+[2026-01-24 19:14:42.000] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found tool resource: quote-extractor[39m
+[2026-01-24 19:14:42.000] [32mINFO[39m: [36m@promptx/core [index.js:6404] [UserDiscovery] 成功添加tool资源: quote-extractor at tool/quote-extractor/quote-extractor.tool.js[39m
+[2026-01-24 19:14:42.001] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found tool resource: silver-search[39m
+[2026-01-24 19:14:42.001] [32mINFO[39m: [36m@promptx/core [index.js:6404] [UserDiscovery] 成功添加tool资源: silver-search at tool/silver-search/silver-search.tool.js[39m
+[2026-01-24 19:14:42.001] [32mINFO[39m: [36m@promptx/core [index.js:6388] [UserDiscovery._processFile] Found tool resource: simple-podcast-parser[39m
+[2026-01-24 19:14:42.001] [32mINFO[39m: [36m@promptx/core [index.js:6404] [UserDiscovery] 成功添加tool资源: simple-podcast-parser at tool/simple-podcast-parser/simple-podcast-parser.tool.js[39m
+[2026-01-24 19:14:42.003] [32mINFO[39m: [36m@promptx/core [index.js:6473] [UserDiscovery] User 注册表生成完成，发现 37 个资源[39m
+[2026-01-24 19:14:42.003] [32mINFO[39m: [36m@promptx/core [index.js:16462] [DiscoverCommand] Registry refresh completed[39m
+[2026-01-24 19:14:42.003] [32mINFO[39m: [36m@promptx/core [index.js:16432] [DiscoverCommand] Tools in user registry: file-organizer, podcast-parser, quote-extractor, silver-search, simple-podcast-parser[39m
+[2026-01-24 19:14:42.003] [32mINFO[39m: [36m@promptx/core [index.js:16434] [DiscoverCommand] Refreshing ResourceManager to discover new resources...[39m
+[2026-01-24 19:14:42.003] [32mINFO[39m: [36m@promptx/core [index.js:8601] [ResourceManager] Starting initialization...[39m
+[2026-01-24 19:14:42.003] [32mINFO[39m: [36m@promptx/core [index.js:8603] [ResourceManager] Cleared existing registry[39m
+[2026-01-24 19:14:42.003] [32mINFO[39m: [36m@promptx/core [index.js:8606] [ResourceManager] Cleared discovery cache[39m
+[2026-01-24 19:14:42.003] [32mINFO[39m: [36m@promptx/core [index.js:8608] [ResourceManager] Populating registry data...[39m
+[2026-01-24 19:14:42.004] [32mINFO[39m: [36m@promptx/core [index.js:8629] [ResourceManager] Discovery managers:[39m
+    [35mcount[39m: 3
+    [35msources[39m: [
+      "PACKAGE",
+      "PROJECT",
+      "USER"
+    ]
+[2026-01-24 19:14:42.004] [32mINFO[39m: [36m@promptx/core [index.js:8635] [ResourceManager] Loading from PACKAGE discovery...[39m
+[2026-01-24 19:14:42.004] [32mINFO[39m: [36m@promptx/core [index.js:6163] [PackageDiscovery] Starting getRegistryData...[39m
+[2026-01-24 19:14:42.016] [32mINFO[39m: [36m@promptx/core [index.js:6165] [PackageDiscovery] @promptx/resource loaded successfully[39m
+[2026-01-24 19:14:42.016] [32mINFO[39m: [36m@promptx/core [index.js:6172] [PackageDiscovery] Registry loaded with 117 resources[39m
+[2026-01-24 19:14:42.016] [32mINFO[39m: [36m@promptx/core [index.js:6189] [PackageDiscovery] Successfully created 117 ResourceData objects[39m
+[2026-01-24 19:14:42.016] [32mINFO[39m: [36m@promptx/core [index.js:8640] [ResourceManager] Found 117 resources from PACKAGE[39m
+[2026-01-24 19:14:42.017] [32mINFO[39m: [36m@promptx/core [index.js:8645] [ResourceManager] After merging PACKAGE, total: 115[39m
+[2026-01-24 19:14:42.017] [32mINFO[39m: [36m@promptx/core [index.js:8635] [ResourceManager] Loading from PROJECT discovery...[39m
+[2026-01-24 19:14:42.017] [31mERROR[39m: [36m@promptx/core [index.js:3821] [ProjectManager DEBUG]  项目未初始化，将抛出错误[39m
+[2026-01-24 19:14:42.017] [31mERROR[39m: [36m@promptx/core [index.js:3738] [ProjectDiscovery] 获取注册表数据失败: 解析@project://路径失败: 项目未初始化，请先调用 init 命令[39m
+[2026-01-24 19:14:42.017] [32mINFO[39m: [36m@promptx/core [index.js:8640] [ResourceManager] Found 0 resources from PROJECT[39m
+[2026-01-24 19:14:42.017] [32mINFO[39m: [36m@promptx/core [index.js:8645] [ResourceManager] After merging PROJECT, total: 115[39m
+[2026-01-24 19:14:42.017] [32mINFO[39m: [36m@promptx/core [index.js:8635] [ResourceManager] Loading from USER discovery...[39m
+[2026-01-24 19:14:42.018] [32mINFO[39m: [36m@promptx/core [index.js:6491] [UserDiscovery] 从注册表加载 37 个资源[39m
+[2026-01-24 19:14:42.018] [32mINFO[39m: [36m@promptx/core [index.js:8640] [ResourceManager] Found 37 resources from USER[39m
+[2026-01-24 19:14:42.018] [32mINFO[39m: [36m@promptx/core [index.js:8645] [ResourceManager] After merging USER, total: 152[39m
+[2026-01-24 19:14:42.018] [32mINFO[39m: [36m@promptx/core [index.js:8656] [ResourceManager] Registry population complete, total resources:[39m
+[2026-01-24 19:14:42.019] [32mINFO[39m: [36m@promptx/core [index.js:8613] [ResourceManager] Initialization complete:[39m
+    [35mtotalResources[39m: 152
+    [35mbySource[39m: {
+      "package": 115,
+      "user": 37
+    }
+    [35mbyProtocol[39m: {
+      "protocol": 2,
+      "tag": 6,
+      "execution": 36,
+      "role": 16,
+      "knowledge": 31,
+      "thought": 50,
+      "tool": 11
+    }
+[2026-01-24 19:14:42.019] [32mINFO[39m: [36m@promptx/core [index.js:16437] [DiscoverCommand] Tools loaded by ResourceManager: excel-tool, filesystem, pdf-reader, role-creator, tool-creator, word-tool, file-organizer, podcast-parser, quote-extractor, silver-search, simple-podcast-parser[39m
+[2026-01-24 19:14:42.019] [32mINFO[39m: [36m@promptx/core [index.js:16472] [DiscoverCommand] Loading role registry...[39m
+[2026-01-24 19:14:42.019] [32mINFO[39m: [36m@promptx/core [index.js:16479] [DiscoverCommand] Found 16 roles[39m
+[2026-01-24 19:14:42.019] [32mINFO[39m: [36m@promptx/core [index.js:16493] [DiscoverCommand] Found 11 tools[39m
+[2026-01-24 19:14:42.020] [32mINFO[39m: [36m@promptx/core [index.js:16365] [DiscoverCommand] Starting to categorize 16 resources[39m
+[2026-01-24 19:14:42.020] [32mINFO[39m: [36m@promptx/core [index.js:16371] [DiscoverCommand] Original source distribution: {"package":7,"user":9}[39m
+[2026-01-24 19:14:42.020] [32mINFO[39m: [36m@promptx/core [index.js:16386] [DiscoverCommand] normalizeSource input: "package" (type: string)[39m
+[2026-01-24 19:14:42.020] [32mINFO[39m: [36m@promptx/core [index.js:16391] [DiscoverCommand] normalizeSource: "package" -> "system"[39m
+[2026-01-24 19:14:42.020] [32mINFO[39m: [36m@promptx/core [index.js:16386] [DiscoverCommand] normalizeSource input: "package" (type: string)[39m
+[2026-01-24 19:14:42.020] [32mINFO[39m: [36m@promptx/core [index.js:16391] [DiscoverCommand] normalizeSource: "package" -> "system"[39m
+[2026-01-24 19:14:42.020] [32mINFO[39m: [36m@promptx/core [index.js:16386] [DiscoverCommand] normalizeSource input: "package" (type: string)[39m
+[2026-01-24 19:14:42.020] [32mINFO[39m: [36m@promptx/core [index.js:16391] [DiscoverCommand] normalizeSource: "package" -> "system"[39m
+[2026-01-24 19:14:42.020] [32mINFO[39m: [36m@promptx/core [index.js:16386] [DiscoverCommand] normalizeSource input: "package" (type: string)[39m
+[2026-01-24 19:14:42.020] [32mINFO[39m: [36m@promptx/core [index.js:16391] [DiscoverCommand] normalizeSource: "package" -> "system"[39m
+[2026-01-24 19:14:42.020] [32mINFO[39m: [36m@promptx/core [index.js:16386] [DiscoverCommand] normalizeSource input: "package" (type: string)[39m
+[2026-01-24 19:14:42.020] [32mINFO[39m: [36m@promptx/core [index.js:16391] [DiscoverCommand] normalizeSource: "package" -> "system"[39m
+[2026-01-24 19:14:42.020] [32mINFO[39m: [36m@promptx/core [index.js:16386] [DiscoverCommand] normalizeSource input: "package" (type: string)[39m
+[2026-01-24 19:14:42.020] [32mINFO[39m: [36m@promptx/core [index.js:16391] [DiscoverCommand] normalizeSource: "package" -> "system"[39m
+[2026-01-24 19:14:42.020] [32mINFO[39m: [36m@promptx/core [index.js:16386] [DiscoverCommand] normalizeSource input: "package" (type: string)[39m
+[2026-01-24 19:14:42.020] [32mINFO[39m: [36m@promptx/core [index.js:16391] [DiscoverCommand] normalizeSource: "package" -> "system"[39m
+[2026-01-24 19:14:42.021] [32mINFO[39m: [36m@promptx/core [index.js:16386] [DiscoverCommand] normalizeSource input: "user" (type: string)[39m
+[2026-01-24 19:14:42.021] [32mINFO[39m: [36m@promptx/core [index.js:16386] [DiscoverCommand] normalizeSource input: "user" (type: string)[39m
+[2026-01-24 19:14:42.021] [32mINFO[39m: [36m@promptx/core [index.js:16386] [DiscoverCommand] normalizeSource input: "user" (type: string)[39m
+[2026-01-24 19:14:42.021] [32mINFO[39m: [36m@promptx/core [index.js:16386] [DiscoverCommand] normalizeSource input: "user" (type: string)[39m
+[2026-01-24 19:14:42.021] [32mINFO[39m: [36m@promptx/core [index.js:16386] [DiscoverCommand] normalizeSource input: "user" (type: string)[39m
+[2026-01-24 19:14:42.021] [32mINFO[39m: [36m@promptx/core [index.js:16386] [DiscoverCommand] normalizeSource input: "user" (type: string)[39m
+[2026-01-24 19:14:42.021] [32mINFO[39m: [36m@promptx/core [index.js:16386] [DiscoverCommand] normalizeSource input: "user" (type: string)[39m
+[2026-01-24 19:14:42.021] [32mINFO[39m: [36m@promptx/core [index.js:16386] [DiscoverCommand] normalizeSource input: "user" (type: string)[39m
+[2026-01-24 19:14:42.021] [32mINFO[39m: [36m@promptx/core [index.js:16386] [DiscoverCommand] normalizeSource input: "user" (type: string)[39m
+[2026-01-24 19:14:42.021] [32mINFO[39m: [36m@promptx/core [index.js:16378] [DiscoverCommand] Categorization result: system=7, project=0, user=9[39m
+[2026-01-24 19:14:42.021] [32mINFO[39m: [36m@promptx/core [index.js:16365] [DiscoverCommand] Starting to categorize 11 resources[39m
+[2026-01-24 19:14:42.021] [32mINFO[39m: [36m@promptx/core [index.js:16371] [DiscoverCommand] Original source distribution: {"package":6,"user":5}[39m
+[2026-01-24 19:14:42.021] [32mINFO[39m: [36m@promptx/core [index.js:16386] [DiscoverCommand] normalizeSource input: "package" (type: string)[39m
+[2026-01-24 19:14:42.022] [32mINFO[39m: [36m@promptx/core [index.js:16391] [DiscoverCommand] normalizeSource: "package" -> "system"[39m
+[2026-01-24 19:14:42.022] [32mINFO[39m: [36m@promptx/core [index.js:16386] [DiscoverCommand] normalizeSource input: "package" (type: string)[39m
+[2026-01-24 19:14:42.022] [32mINFO[39m: [36m@promptx/core [index.js:16391] [DiscoverCommand] normalizeSource: "package" -> "system"[39m
+[2026-01-24 19:14:42.022] [32mINFO[39m: [36m@promptx/core [index.js:16386] [DiscoverCommand] normalizeSource input: "package" (type: string)[39m
+[2026-01-24 19:14:42.022] [32mINFO[39m: [36m@promptx/core [index.js:16391] [DiscoverCommand] normalizeSource: "package" -> "system"[39m
+[2026-01-24 19:14:42.022] [32mINFO[39m: [36m@promptx/core [index.js:16386] [DiscoverCommand] normalizeSource input: "package" (type: string)[39m
+[2026-01-24 19:14:42.022] [32mINFO[39m: [36m@promptx/core [index.js:16391] [DiscoverCommand] normalizeSource: "package" -> "system"[39m
+[2026-01-24 19:14:42.022] [32mINFO[39m: [36m@promptx/core [index.js:16386] [DiscoverCommand] normalizeSource input: "package" (type: string)[39m
+[2026-01-24 19:14:42.022] [32mINFO[39m: [36m@promptx/core [index.js:16391] [DiscoverCommand] normalizeSource: "package" -> "system"[39m
+[2026-01-24 19:14:42.022] [32mINFO[39m: [36m@promptx/core [index.js:16386] [DiscoverCommand] normalizeSource input: "package" (type: string)[39m
+[2026-01-24 19:14:42.022] [32mINFO[39m: [36m@promptx/core [index.js:16391] [DiscoverCommand] normalizeSource: "package" -> "system"[39m
+[2026-01-24 19:14:42.022] [32mINFO[39m: [36m@promptx/core [index.js:16386] [DiscoverCommand] normalizeSource input: "user" (type: string)[39m
+[2026-01-24 19:14:42.022] [32mINFO[39m: [36m@promptx/core [index.js:16386] [DiscoverCommand] normalizeSource input: "user" (type: string)[39m
+[2026-01-24 19:14:42.022] [32mINFO[39m: [36m@promptx/core [index.js:16386] [DiscoverCommand] normalizeSource input: "user" (type: string)[39m
+[2026-01-24 19:14:42.022] [32mINFO[39m: [36m@promptx/core [index.js:16386] [DiscoverCommand] normalizeSource input: "user" (type: string)[39m
+[2026-01-24 19:14:42.022] [32mINFO[39m: [36m@promptx/core [index.js:16386] [DiscoverCommand] normalizeSource input: "user" (type: string)[39m
+[2026-01-24 19:14:42.022] [32mINFO[39m: [36m@promptx/core [index.js:16378] [DiscoverCommand] Categorization result: system=6, project=0, user=5[39m
+[2026-01-24 19:14:42.061] [32mINFO[39m: [36m@promptx/core [index.js:19939] [39m

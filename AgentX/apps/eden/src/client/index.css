@@ -1,0 +1,165 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  /* Background & Foreground */
+  --color-background: #2d2521;
+  --color-foreground: #f1f0e5;
+
+  /* Primary Colors */
+  --color-primary: #c39e88;
+  --color-primary-foreground: #2d2521;
+
+  /* Secondary & Accent */
+  --color-secondary: #8a655a;
+  --color-secondary-foreground: #f1f0e5;
+  --color-accent: #baab92;
+  --color-accent-foreground: #2d2521;
+
+  /* Card & Popover */
+  --color-card: #3c332e;
+  --color-card-foreground: #f1f0e5;
+  --color-popover: #3c332e;
+  --color-popover-foreground: #f1f0e5;
+
+  /* Muted */
+  --color-muted: #56453f;
+  --color-muted-foreground: #c5aa9b;
+
+  /* Border & Input */
+  --color-border: #56453f;
+  --color-input: #56453f;
+  --color-ring: #c39e88;
+
+  /* Status */
+  --color-destructive: #e57373;
+  --color-destructive-foreground: #2d2521;
+
+  /* Chart Colors */
+  --color-chart-1: #c39e88;
+  --color-chart-2: #baab92;
+  --color-chart-3: #a37764;
+  --color-chart-4: #8a655a;
+  --color-chart-5: #a28777;
+
+  /* Sidebar */
+  --color-sidebar-background: #1f1a17;
+  --color-sidebar-foreground: #f1f0e5;
+  --color-sidebar-primary: #c39e88;
+  --color-sidebar-primary-foreground: #1f1a17;
+  --color-sidebar-accent: #baab92;
+  --color-sidebar-accent-foreground: #1f1a17;
+  --color-sidebar-border: #56453f;
+  --color-sidebar-ring: #c39e88;
+
+  /* Border Radius */
+  --radius: 0.5rem;
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
+}
+
+@layer base {
+  :root {
+    /* Base Modern Variables */
+    --color-background: #2d2521;
+    --color-foreground: #f1f0e5;
+    --color-primary: #c39e88;
+    --color-primary-foreground: #2d2521;
+    --color-secondary: #8a655a;
+    --color-secondary-foreground: #f1f0e5;
+    --color-accent: #baab92;
+    --color-accent-foreground: #2d2521;
+    --color-card: #3c332e;
+    --color-card-foreground: #f1f0e5;
+    --color-muted: #56453f;
+    --color-muted-foreground: #c5aa9b;
+    --color-border: #56453f;
+    --color-sidebar-background: #1f1a17;
+    --color-sidebar-foreground: #f1f0e5;
+
+    /* Legacy Compatibility Variables (for oklch/alpha support) */
+    --primary: 0.7 0.1 65;
+    /* oklch approximation */
+    --background: 0.2 0.05 60;
+    --foreground: 0.95 0.02 70;
+    --muted: 0.4 0.05 60;
+    --border: 0.4 0.05 60;
+  }
+
+  .theme-desert {
+    --color-background: #2d2521;
+    --color-foreground: #f1f0e5;
+    --color-primary: #c39e88;
+    --color-primary-foreground: #2d2521;
+    --color-secondary: #3c332e;
+    --color-secondary-foreground: #f1f0e5;
+    --color-accent: #baab92;
+    --color-accent-foreground: #2d2521;
+    --color-muted: #56453f;
+    --color-muted-foreground: #d1b9ac;
+    --color-border: #56453f;
+
+    /* Legacy sync */
+    --primary: 0.7 0.1 65;
+    --muted: 0.4 0.05 60;
+  }
+
+  .theme-light {
+    --color-background: #ffffff;
+    --color-foreground: #0f172a;
+    --color-primary: #2563eb;
+    --color-primary-foreground: #ffffff;
+    --color-secondary: #f1f5f9;
+    --color-secondary-foreground: #0f172a;
+    --color-accent: #e2e8f0;
+    --color-accent-foreground: #0f172a;
+    --color-card: #ffffff;
+    --color-card-foreground: #0f172a;
+    --color-popover: #ffffff;
+    --color-popover-foreground: #0f172a;
+    --color-muted: #f1f5f9;
+    --color-muted-foreground: #475569;
+    --color-border: #e2e8f0;
+    --color-sidebar-background: #f8fafc;
+    --color-sidebar-foreground: #0f172a;
+
+    /* Legacy sync */
+    --primary: 0.6 0.2 250;
+    --muted: 0.95 0.02 240;
+  }
+
+  .theme-dark {
+    --color-background: #09090b;
+    --color-foreground: #fafafa;
+    --color-primary: #3b82f6;
+    --color-primary-foreground: #ffffff;
+    --color-secondary: #18181b;
+    --color-secondary-foreground: #fafafa;
+    --color-accent: #27272a;
+    --color-accent-foreground: #fafafa;
+    --color-card: #09090b;
+    --color-card-foreground: #fafafa;
+    --color-popover: #09090b;
+    --color-popover-foreground: #fafafa;
+    --color-muted: #18181b;
+    --color-muted-foreground: #a1a1aa;
+    --color-border: #27272a;
+    --color-sidebar-background: #000000;
+    --color-sidebar-foreground: #fafafa;
+
+    /* Legacy sync */
+    --primary: 0.6 0.2 250;
+    --muted: 0.2 0.02 240;
+  }
+
+  * {
+    border-color: var(--color-border);
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+}

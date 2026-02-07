@@ -1,0 +1,23 @@
+{
+  "name": "@agentxjs/bdd",
+  "private": true,
+  "version": "0.1.0",
+  "description": "BDD contract tests for AgentX API",
+  "type": "module",
+  "scripts": {
+    "test": "bun test-manager.ts",
+    "test:server": "bun test-manager.ts server",
+    "test:run": "NODE_OPTIONS='--import tsx' cucumber-js"
+  },
+  "devDependencies": {
+    "@agentxjs/runtime": "workspace:*",
+    "@agentxjs/types": "workspace:*",
+    "@cucumber/cucumber": "^11.2.0",
+    "@types/node": "^24.9.2",
+    "@types/ws": "^8.5.10",
+    "agentxjs": "workspace:*",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "ws": "^8.18.0"
+  }
+}

@@ -1,0 +1,87 @@
+Usage: promptx [options] [command]
+
+PromptX CLI - Command-line interface for the DPML-powered AI prompt framework
+
+Options:
+  -v, --version            display version number
+  -h, --help               display help for command
+
+Commands:
+  action <role>            action pouch - activate specific AI role, obtain professional prompts
+  discover                 discover pouch - discover and display all available AI roles and domain
+                           experts
+  help [command]           display help for command
+  learn [resourceUrl]      learn pouch - learn resource content of specified protocols (thought://,
+                           execution://, etc.)
+  mcp-server [options]     Start MCP Server, support AI applications like Claude Desktop to connect
+  project [workspacePath]  project pouch - manage project configuration and environment
+  recall [query]           recall pouch - AI actively retrieves relevant professional knowledge
+                           from memory
+  remember [content...]    remember pouch - AI actively internalizes knowledge and experience into
+                           memory system
+  toolx <arguments>        toolx pouch - execute JavaScript functions in PromptX tool ecosystem
+                           (ToolX)
+
+
+PromptX Pouch Framework - AI use CLI get prompt for AI
+
+Six Core Commands:
+  init   → Initialize environment, communicate system protocols
+  discover  → Discover available roles and domain experts  
+  action → Activate specific role, obtain professional capabilities
+  learn  → Deep learning domain knowledge systems
+  recall → AI actively retrieves applied memory
+  remember → AI actively internalizes knowledge to enhance memory
+  toolx → Execute PromptX tool ecosystem (ToolX), AI intelligent actions
+  mcp-server → Start MCP Server, connect AI applications
+
+Examples:
+  # 1. Initialize pouch system
+  promptx init
+
+  # 2. Discover available roles
+  promptx discover
+
+  # 3. Activate professional roles
+  promptx action copywriter
+  promptx action scrum-master
+
+  # 4. Learn domain knowledge
+  promptx learn scrum
+  promptx learn copywriter
+
+  # 5. Retrieve relevant experience
+  promptx recall agile
+  promptx recall
+  
+  # 6. AI internalizes professional knowledge
+  promptx remember "Control daily standup within 15 minutes"
+  promptx remember "Test → Pre-production → Production"
+
+  # 7. Execute JavaScript tools
+  promptx toolx '{"tool_resource": "@tool://calculator", "parameters": {"operation": "add", "a": 2, "b": 3}}'
+  promptx toolx '{"tool_resource": "@tool://send-email", "parameters": {"to": "test@example.com", "subject": "Hello", "content": "Test"}}'
+
+  # 8. Start MCP service
+  promptx mcp-server                    # stdio transport (default)
+  promptx mcp-server -t http -p 3000    # HTTP transport (Streamable HTTP)
+
+PATEOAS State Machine:
+  Each pouch output contains PATEOAS navigation, guiding AI to discover next operations
+  Even if AI forgets context, can still execute independently through pouches
+
+Core Philosophy:
+  • Self-contained pouches: Each command contains complete execution information
+  • Chain without dependencies: AI can continue execution even forgetting context
+  • Phased focus: Each pouch focuses on single task
+  • Prompt-driven: Output guides AI to discover next steps
+
+MCP Integration:
+  • AI application connection: Connect AI applications like Claude Desktop via MCP protocol
+  • Standardized interface: Follow Model Context Protocol standard
+  • Environment independent: Solve CLI environment configuration issues
+
+More Information:
+  GitHub: https://github.com/Deepractice/PromptX
+  Organization: https://github.com/Deepractice
+

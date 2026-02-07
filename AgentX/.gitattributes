@@ -1,0 +1,34 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# TypeScript/JavaScript
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
+*.js linguist-language=JavaScript
+*.jsx linguist-language=JavaScript
+*.mjs linguist-language=JavaScript
+*.cjs linguist-language=JavaScript
+
+# Vendored files (excluded from language statistics)
+pnpm-lock.yaml linguist-vendored
+bun.lock linguist-vendored
+*.min.js linguist-vendored
+*.min.css linguist-vendored
+dist/** linguist-vendored
+storybook-static/** linguist-vendored
+**/__snapshots__/** linguist-vendored
+bdd/reports/** linguist-vendored
+
+# Development and testing files (excluded)
+*.stories.tsx linguist-vendored
+*.test.ts linguist-vendored
+*.test.tsx linguist-vendored
+*.spec.ts linguist-vendored
+*.spec.tsx linguist-vendored
+*.feature linguist-vendored
+
+# HTML files (all build artifacts and entry points)
+*.html linguist-vendored
+
+# Documentation
+*.md linguist-documentation=true

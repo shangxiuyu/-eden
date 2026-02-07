@@ -1,0 +1,26 @@
+{
+  "$schema": "https://unpkg.com/@changesets/config@3.0.0/schema.json",
+  "changelog": "@changesets/cli/changelog",
+  "commit": false,
+  "fixed": [
+    [
+      "agentxjs",
+      "@agentxjs/runtime",
+      "@agentxjs/ui",
+      "@agentxjs/portagent",
+      "@agentxjs/persistence",
+      "@agentxjs/network",
+      "@agentxjs/agent",
+      "@agentxjs/types",
+      "@agentxjs/common"
+    ]
+  ],
+  "linked": [],
+  "access": "public",
+  "baseBranch": "main",
+  "updateInternalDependencies": "patch",
+  "ignore": ["@agentx/dev-storybook"],
+  "___experimentalUnsafeOptions_WILL_CHANGE_IN_PATCH": {
+    "onlyUpdatePeerDependentsWhenOutOfRange": true
+  }
+}
